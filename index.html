@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de Precios</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Calculadora de Precios</h1>
+        <label for="tasaCambio">Tasa de Cambio:</label>
+        <input type="number" id="tasaCambio" name="tasaCambio" step="0.01">
+        <button onclick="calcular()">Calcular</button>
+        <div class="tabla-container">
+            <table id="tablaResultados">
+                <thead>
+                    <tr>
+                    </tr>
+                </thead>
+                <tbody>
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
